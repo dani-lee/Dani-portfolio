@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/danbi-lee/static/css/main.9a3ea3c6.css",
+    "main.css": "/danbi-lee/static/css/main.87e6f010.css",
     "main.js": "/danbi-lee/static/js/main.7b87a9fe.js",
     "static/js/787.6972166d.chunk.js": "/danbi-lee/static/js/787.6972166d.chunk.js",
     "static/media/ago.png": "/danbi-lee/static/media/ago.6b7af97b7585312cfe97.png",
@@ -8,12 +8,12 @@
     "static/media/DANBI_LEE.pdf": "/danbi-lee/static/media/DANBI_LEE.a3a5503e94cb68fb5a2e.pdf",
     "static/media/D_logo.png": "/danbi-lee/static/media/D_logo.2e78cd625bee1b3b0038.png",
     "index.html": "/danbi-lee/index.html",
-    "main.9a3ea3c6.css.map": "/danbi-lee/static/css/main.9a3ea3c6.css.map",
+    "main.87e6f010.css.map": "/danbi-lee/static/css/main.87e6f010.css.map",
     "main.7b87a9fe.js.map": "/danbi-lee/static/js/main.7b87a9fe.js.map",
     "787.6972166d.chunk.js.map": "/danbi-lee/static/js/787.6972166d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a3ea3c6.css",
+    "static/css/main.87e6f010.css",
     "static/js/main.7b87a9fe.js"
   ]
 }
