@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dani-portfolio/index.html/static/css/main.9a3ea3c6.css",
+    "main.js": "/dani-portfolio/index.html/static/js/main.3684b982.js",
+    "static/js/787.6972166d.chunk.js": "/dani-portfolio/index.html/static/js/787.6972166d.chunk.js",
+    "static/media/ago.png": "/dani-portfolio/index.html/static/media/ago.6b7af97b7585312cfe97.png",
+    "static/media/me.png": "/dani-portfolio/index.html/static/media/me.06be8220badf021373c9.png",
+    "static/media/DANBI_LEE.pdf": "/dani-portfolio/index.html/static/media/DANBI_LEE.a3a5503e94cb68fb5a2e.pdf",
+    "static/media/D_logo.png": "/dani-portfolio/index.html/static/media/D_logo.2e78cd625bee1b3b0038.png",
+    "index.html": "/dani-portfolio/index.html/index.html",
+    "main.9a3ea3c6.css.map": "/dani-portfolio/index.html/static/css/main.9a3ea3c6.css.map",
+    "main.3684b982.js.map": "/dani-portfolio/index.html/static/js/main.3684b982.js.map",
+    "787.6972166d.chunk.js.map": "/dani-portfolio/index.html/static/js/787.6972166d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a3ea3c6.css",
+    "static/js/main.3684b982.js"
+  ]
+}
