@@ -1,0 +1,21 @@
+.left {
+  position: fixed;
+  bottom: 30px;
+}
+
+.left ul {
+  list-style: none;
+  justify-content: space-between;
+}
+
+.left li {
+  color: #c7c7c7;
+  padding: 5px 0px;
+  font-size: 1.7em;
+}
+
+.left a:link,
+.left a:visited,
+.left a:hover {
+  color: #c7c7c7;
+}

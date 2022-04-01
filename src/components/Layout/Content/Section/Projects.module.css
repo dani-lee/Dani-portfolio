@@ -1,0 +1,96 @@
+.projects {
+  background-color: #fafafa;
+  padding: 140px 300px;
+}
+
+.project-wrapper {
+  padding: 100px 50px;
+}
+
+.projects .section-heading {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  color: #142850;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.projects li {
+  display: flex;
+  padding: 0px 0px 60px 0px;
+}
+
+.project-image {
+  width: 400px;
+  height: 350px;
+  padding: 0px 20px;
+  line-height: 350px;
+  border: solid 1px #d9d9d9;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.project-image:hover {
+  box-shadow: 1px 1px 20px #ddd;
+  transform: translateY(-10px);
+}
+.project-image img {
+  width: 400px;
+  vertical-align: middle;
+}
+
+.project-content {
+  padding: 0px 30px;
+}
+
+.project-title {
+  font-size: 1.3em;
+}
+
+.project-skill ul {
+  display: inline-block;
+  columns: 3;
+}
+
+.project-skill li {
+  font-size: 0.9em;
+  color: gray;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.project-info a:link,
+.project-info a:visited,
+.project-info a:hover {
+  color: #c7c7c7;
+}
+
+.git-icon {
+  margin: 0;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    padding: 140px 130px;
+  }
+  .project-wrapper {
+    padding: 0;
+  }
+  .project-wrapper li {
+    flex-direction: column;
+  }
+
+  .project-content {
+    padding: 0px 30px 30px 30px;
+  }
+
+  .project-image {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 200;
+
+  padding: 30px 40px;
+  width: 95%;
+}
+
+.visible {
+  top: 0;
+  transition: top 0.4s ease-out;
+}
+
+.hidden {
+  top: -100px;
+  transition: top 0.4s ease-out;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+
+  transition: 0.4s ease;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-logo img {
+  width: 50px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a,
+a:link,
+a:hover,
+a:visited {
+  margin: 0 20px;
+  position: relative;
+  color: #bbe1fa;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.changedColour a {
+  margin: 0 20px;
+  position: relative;
+  color: #142850;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.border-button {
+  border: 2px solid #00a8cc;
+  background-color: transparent;
+  border-radius: 6px;
+  color: #00a8cc;
+  padding: 8px 50px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.changedColour-button {
+  border: 2px solid #142850;
+  color: #142850;
+}
+
+.nav__toggleBtn {
+  display: none;
+  color: #fff;
+  position: absolute;
+  right: 30px;
+  font-size: 32px;
+}
+.nav__toggleBtn i {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-links li {
+    padding: 10px 0px;
+  }
+
+  .nav .nav__toggleBtn {
+    display: block;
+  }
+}

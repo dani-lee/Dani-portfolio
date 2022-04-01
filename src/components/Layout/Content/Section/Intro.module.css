@@ -1,0 +1,42 @@
+.intro {
+  min-height: 900px;
+  text-align: center;
+  background-color: #142850;
+}
+
+.intro .text-wrapper {
+  padding: 350px 0px;
+  color: #bbe1fa;
+  display: inline-block;
+}
+
+.text-wrapper .name_eg {
+  font-size: 3em;
+  margin: 20px 0 0;
+  position: relative;
+  text-align: center;
+
+  /* animation: textShow 2s ease; */
+}
+
+.name_eg::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 7px;
+  left: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  width: 90%;
+  height: 30%;
+}
+
+@keyframes textShow {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
