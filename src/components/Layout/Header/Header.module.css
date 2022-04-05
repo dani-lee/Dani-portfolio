@@ -62,7 +62,10 @@
   font-size: 1.2em;
 }
 
-.changedColour a {
+.changedColour a,
+.changedColour a:link,
+.changedColour a:hover,
+.changedColour a:visited {
   margin: 0 20px;
   position: relative;
   color: #142850;
