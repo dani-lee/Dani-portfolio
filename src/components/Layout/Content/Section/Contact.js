@@ -21,17 +21,15 @@ const Contact = () => {
           </p>
         </Fade>
 
-        <Fade up>
-          <div className={classes.bump}>
-            <a
-              className={classes.hello}
-              href="mailto:ldb1213@gmail.com"
-              target="_blank"
-            >
-              Say Hello 👋🏻
-            </a>
-          </div>
-        </Fade>
+        <div className={classes.bump}>
+          <a
+            className={classes.hello}
+            href="mailto:ldb1213@gmail.com"
+            target="_blank"
+          >
+            Say Hello 👋🏻
+          </a>
+        </div>
       </div>
     </section>
   );
